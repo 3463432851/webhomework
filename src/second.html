@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2018211238刘清源</title>
+</head>
+<body>
+<div align="center">
+    <form action="" name="myform">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" id="user" /></td>
+            </tr>
+            <tr>
+                <td>密  码：</td>
+                <td><input type="text" id="password" /></td>
+            </tr>
+        </table>
+    </form>
+    <table>
+        <tr>
+            <td>
+                <input type="submit" value="提交" onclick=myfun_submit() />
+            </td>
+
+        </tr>
+    </table>
+</div>
+<script>
+function myfun_submit(){
+var user_val = document.getElementById("user").value;
+var password_val = document.getElementById("password").value;
+if(user_val=="admin" && password_val=="admin"){
+window.location.href = 'http://localhost:63342/untitled/second2.html';
+}
+else{
+alert("用户名或密码错误！！");
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2018211238刘清源</title>
+</head>
+<body>
+<div align="center">
+    <form action="" name="people">
+        <table>
+            <tr>
+                <td>姓名：</td>
+                <td><input type="text" id="name" /></td>
+            </tr>
+            <tr>
+                <td>电话：</td>
+                <td><input type="text" id="phone" /></td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td><input type="text" id="mail" /></td>
+            </tr>
+            <tr>
+                <td>地址：</td>
+                <td><input type="text" id="address" /></td>
+            </tr>
+            <tr>
+                <td>QQ：</td>
+                <td><input type="text" id="qqnum" /></td>
+            </tr>
+        </table>
+    </form>
+    <table>
+        <tr>
+            <td>
+                <input type="submit" value="添加" onclick=myfun_add() />
+            </td>
+
+        </tr>
+    </table>
+</div>
+<script>
+function myfun_add(){
+var name_val = document.getElementById("name").value;
+var phone_val = document.getElementById("phone").value;
+var mail_val = document.getElementById("mail").value;
+var address_val = document.getElementById("address").value;
+var qqnum_val = document.getElementById("qqnum").value;
+}
+</script>
+</body>
+</html>

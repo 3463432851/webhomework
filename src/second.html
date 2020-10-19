@@ -26,13 +26,14 @@
 
         </tr>
     </table>
+    用户名和密码均为admin
 </div>
 <script>
 function myfun_submit(){
 var user_val = document.getElementById("user").value;
 var password_val =  document.getElementById("password").value;
 if(user_val=="admin" && password_val=="admin"){
-window.location.href = 'http://localhost:63342/untitled/second2.html';
+window.location.href = 'second2.html';
 }
 else{
 alert("用户名或密码错误！！");
